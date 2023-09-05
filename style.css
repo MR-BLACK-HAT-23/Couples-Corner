@@ -1,0 +1,257 @@
+*{
+    font-family: poppins;
+}
+.btn-outline-primary{
+    color: #ff087f!important;
+    border: #ff087f!important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0, 0, 0, 0.9)!important;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255, 39, 39, 0.9)!important;
+}
+a .dropdown-item:hover {
+    color: red!important;
+
+}
+.navbar-nav a{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight:500px;
+}
+.nav-link{
+    font-size: 30px;
+}
+.bg-dark{
+    background-color: black;
+}
+.navbar-light .navbar-brand {
+    color: rgba(255, 0, 0, 0.9);
+}
+.navbar-light .navbar-brand{
+    color: maroon;
+    font-size: 25px;
+    text-transform: uppercase;
+    font: weight 700px;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    font-family: poppins;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:#ff0e0e;
+    font-family: poppins;
+    font-weight: bold;
+}
+.redbtn{
+        background: #ff0e0e;
+        color:white;
+        padding: 20px 40px;
+        border-radius: 35px;
+        border: none;
+        margin: 10px 0px;
+    }
+.rosebtn{
+    background-color: #ff7979;
+    color:white;
+    padding: 30px 40px;
+    border-radius: 35px;
+    border: none;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.rosebtn:hover{
+    background-color: #f84b4b;
+    color:white;
+    padding: 30px 40px;
+    border-radius: 35px;
+    border: none;
+    margin: 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+button {
+        border-radius: 50px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        background: #ff0e0e;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+}
+ .span{
+        background: #ff0e0e;
+ } 
+.dropdown-item:hover{
+    color: red;
+
+}    
+button:hover {
+        background-color: #ff7979;
+        color: black;
+}
+.text-para{
+    animation: left 1s ease-in-out;
+}
+@keyframes left{
+    0%{
+        transform:translateX(-100%)
+    }
+}
+.text-sara{
+    animation: right 1s ease-in-out;
+}
+@keyframes right{
+    0%{
+        transform:translateX(100%)
+    }
+
+}
+
+.section-padding{
+    padding: 100px 0px;   
+}
+.text{
+    padding:10px 20px;
+}
+.text h1{
+    color:black;
+    font-size: 60px;
+    font-weight:bold;
+    letter-spacing:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text p{
+    padding:10px 0px;
+    font-size: 20px;
+    opacity: 20px;
+}
+.about-section-padding{
+    margin-top:20px;
+    background-color: #ffe5f8;
+}
+.about-img{
+    padding:20px 30px;
+    margin-right: 30px;
+}
+.text{
+    margin:0px 10px;
+    padding:10px 20px;
+}
+.about-text h1{
+    color:black;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-text p{
+    padding:10px 0px;
+    font-size: 20px;
+}
+.card-title{
+    font-size: 30px;padding-top: 30px;
+}
+.card{
+    background-color: peachpuff;
+}
+
+.card-1{
+    border-radius: 20px;
+}
+  @media only screen and (max-width:767px) {
+    .navbar-nav{
+     text-align: center;
+    }
+ }
+.text-primary{
+    color: red;
+}
+.bg-peach{
+    background-color:#FDF7F8 !important;
+}
+.bg-white{
+    background-color: white!important;
+    box-shadow: #ff087f;
+}
+.bold{
+    font-weight: bold;
+    color: rgb(255, 142, 142);
+}
+.dollar{
+    color: #EF645F;
+}
+.bold-dark{
+    color: black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.bg-rose{
+    background-color: #fff0f8 !important;
+}
+.experience{
+    background-color:#fffcfc;
+    opacity: 20px;
+}
+.lead{
+    font-size: 20px;
+    font-weight: 200;
+}
+.text-peach{
+    color: rgb(252, 215, 169)!important;
+}
+.img-rev {
+    border-radius: 52px;
+}
+.para{
+    font-size: 20px;
+    width:60%;
+}
+.height{
+    font-size: 40px;
+    font-weight: 500;
+}
+.h-padding{
+    padding:20px 0px;
+}
+.line{
+    color: #ff087f;
+}
+.shopimg{
+    padding: 20px 0px;
+    border-radius: 20px;
+    width: 100%;
+}
+.font-time{
+    font-family: 'Monoton', cursive;
+}
+.card{
+    overflow: hidden;
+}
+.collapse-btn{
+    color: white!important;
+    background-color: #fdb4b4!important;
+    border-radius: 10px;
+}
+.collapse-btn:hover{
+    color: white!important;
+    background-color: #ff6161!important;
+    border-radius: 10px;
+}
+.dark{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.ft-link{
+    font-family:sans-serif;
+    font-size: 25px;
+    
+}
